@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(243, 240, 234);
+    color: rgb(5, 5, 5);
+
+}
+
+a {
+    color: rgb(42, 33, 85);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+a:visited{
+    color: chocolate;
+}
+
+.avatar {
+    width: 190px;
+    border-radius: 11px;
+    box-shadow: 4px 4px 14px black;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+    
+}
+
+.info-text h3 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.contactInfo {
+    padding: 15px 20px 21px 16px;
+    border-radius: 11px;
+    margin: 20px;
+
+}
+
+.bg-yellow {
+    background: #e6e5b4;
+}
+
+.bg-green {
+    background: rgb(218, 226, 180);
+}
+
+
+.card {    
+    padding: 15px 20px 21px 16px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+
+ .card h2 {
+     margin-bottom: 10px;
+ }
+
+ .list {
+     padding: 0 20px;
+ }
+
+ .list li {
+     margin-bottom: 10px;
+ }
+
+ .table {
+     width: 100%;
+ }
+
+ .table td {
+     padding-bottom: 10px;
+ }
+
+ .contact h2 {
+     text-align: center;
+ }
+
+ .form-group  label {
+     display: block;
+     font-size: 14px;
+     color: rgb(70, 67, 67); 
+
+ }
+
+ .form-group input,
+ .form-group textarea{
+     width: 100% ;
+     box-sizing: border-box;
+     border: none;
+     border-bottom: 1px solid #ccc;
+     color: black;
+     padding: 15px 0 10px;
+     outline: none;
+     font-family: inherit;
+ }
+
+ .row {
+     display:flex ;
+     margin-bottom: 20px;     
+ }
+
+ .row > .form-group {
+     width: 50%;
+     margin-right: 20px;
+ }
+
+ .btn {
+     background: rgb(169, 230, 109);
+     padding: 15px 20px;
+     color: rgb(112, 98, 177);
+     border: none;
+     font-family: inherit;
+     cursor: pointer;
+     border-radius: 10px;
+ }
+
+ .btn:hover {
+     opacity: 0.9;
+ }
+
